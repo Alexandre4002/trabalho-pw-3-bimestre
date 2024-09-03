@@ -1,0 +1,272 @@
+
+@font-face {
+    font-family: 'font2'; 
+    src: url('font2.ttf');
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url('font3.ttf');
+}
+
+@font-face{
+    font-family: 'font4';
+    src: url('font4.ttf');
+}
+@font-face{
+    font-family: 'font5';
+    src: url('font5.ttf');
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-image: url("img/psvita.png");
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #1E9648;
+    cursor:alias;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background-image: url(img/testescroll.png);
+}
+a
+{
+    text-decoration: none;
+}
+
+
+#logo{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 0%;
+margin-top: 10px;
+}
+body
+{
+ margin-left: 0%;
+
+ background: 
+             url("img/foto2.png"),
+             url("img/foto1.png");   
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%; 
+}
+
+img{
+    width: 500px;
+    margin-top: 10px;
+}
+.gamb
+{
+    text-align: center;
+}
+
+
+
+#butao
+{
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    display: flex;
+}
+.boto
+{
+    display: block;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: font3;
+    margin: 0 25px;
+    padding: 10px 35px;
+    border: 5px solid #A0D58A ;
+    background-color: #ADD8E6;
+   animation: upToDown 1s forwards;
+}
+@keyframes upToDown 
+{
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+}
+
+
+.boto1
+{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: font3;
+    margin: 0 25px;
+    padding: 10px 35px;
+    border: 5px solid #A0D58A ;
+    overflow: hidden;
+    display: flex;
+    background-color: #ADD8E6 ;  
+   
+}
+
+
+.boto2
+{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: font3;
+    margin: 0 35px;
+    padding: 10px 35px;
+    border: 5px solid #A0D58A ;
+    overflow: hidden;
+    display: flex;
+    background-color: #ADD8E6;
+}
+.boto3
+{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: font3;
+    margin: 0 15px;
+    padding: 10px 35px;
+    border: 5px solid #A0D58A ;
+    overflow: hidden;
+    display: flex;
+    background-color: #ADD8E6;
+}
+.boto4
+{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+    margin: 0 15px;
+    padding: 10px 35px;
+    border: 2px solid #A0D58A ;
+    overflow: hidden;
+    display: flex;
+    background-color: #ADD8E6;
+}
+.guia1
+{
+    position: fixed;
+    margin-bottom: 0;
+    float:left;
+    width: 15%;
+    margin-left: 88%;
+    margin-top: 15%;
+}
+.olho1
+{
+    position: fixed;
+    margin-bottom: 0;
+    float:right;
+    width: 15%;
+    margin-right: 58%;
+    margin-top: 2%;
+
+}
+#cxt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cxt1
+{
+    position: relative;
+    color: white;
+    font-family: font4;
+    font-size: 18px;
+    text-align: justify;
+    background-color: #674d3cf8;
+    border: 14px solid #674d3cf8;
+    width: 800px;
+    height: 550px;
+
+}
+.cxt1:before
+{
+content: "";
+position: absolute;
+z-index: 1;
+top: -17px;
+left: -17px;
+right: -17px;
+bottom: -17x;
+border: 3px solid #1E9648;
+}
+.cxt1::after
+{
+     content: "";
+position: absolute;
+z-index: -1;
+top: -17px;
+left: -17px;
+right: -17px;
+bottom: -17px;
+border: 3px solid #4F372B;
+}
+.text1
+{
+float: unset;
+text-align: justify;
+
+}
+.vd1
+{
+    float: left;
+    margin-right: 10px;
+}
+.foto5
+{
+    width: 390px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 20px;
+    
+}
+.vd2
+{
+    float: unset;
+    
+}
+.text2
+{
+font-family: font5;
+background-color: rgba(0, 0, 0, 0.664);
+font-size: 20px;
+color: gray;
+margin-bottom: -50px;
+margin-right: -8px;
+text-align: center;
+margin-top: 5%;
+
+}
+
+.text2 a
+{
+    color: rgb(155, 154, 154);
+  
+}
+
